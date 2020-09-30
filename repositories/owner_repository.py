@@ -54,7 +54,7 @@ def pets(owner):
     results = run_sql(sql, values)
 
     for row in results:
-        pet = Pet(row['name'], row['user_id'], row['species'], row['age'])
+        pet = Pet(row['name'], row['owner_id'], row['species'], row['age'])
         pets.append(pet)
     return pets
 
