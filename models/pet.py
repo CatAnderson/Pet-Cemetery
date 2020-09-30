@@ -1,4 +1,4 @@
-class Pets:
+class Pet:
 
     def __init__(self, name, owner, species, age, id=None):
         self.name = name
@@ -6,4 +6,3 @@ class Pets:
         self.species = species
         self.age = age
         self.id = id
-        
