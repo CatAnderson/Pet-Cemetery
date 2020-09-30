@@ -13,5 +13,7 @@ def save(pet):
 
 
 
-
+def delete_all():
+    sql = "DELETE FROM pets"
+    run_sql(sql)
     

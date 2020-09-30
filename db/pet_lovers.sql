@@ -11,5 +11,5 @@ CREATE TABLE pets (
     name VARCHAR(255),
     species VARCHAR(255),
     age INT,
-    user_id INT REFERENCES owners(id)
+    owner_id INT REFERENCES owners(id)
     );
